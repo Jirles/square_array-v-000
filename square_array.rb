@@ -11,6 +11,6 @@ end
 with_each = square_array([1, 2, 3, 4])
 with_collect = square_array_collect([1,2,3,4])
 puts "square_array output:"
-puts with_each
+print with_each
 puts "using #collect:"
-puts with_collect
+print with_collect
