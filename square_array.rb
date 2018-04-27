@@ -9,8 +9,8 @@ def square_array_collect(array)
 end
 
 with_each = square_array([1, 2, 3, 4])
-puts "square_array output:"
-with_each
-puts "using #collect:"
 with_collect = square_array_collect([1,2,3,4])
-with_collect
+puts "square_array output:"
+puts with_each
+puts "using #collect:"
+puts with_collect
