@@ -1,11 +1,11 @@
 def square_array(array)
   result = []
   array.each {|i| result << i**2}
-  result
+  puts result
 end
 
 def square_array_collect(array)
-  array.collect {|i| i**2}
+  puts array.collect {|i| i**2}
 end
 
 puts "square_array output:"
